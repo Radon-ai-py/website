@@ -88,7 +88,350 @@
           transition-delay: 0.32s;
  }
 
+ /*@charset "UTF-8";
+ *, *:before, *:after {
+   box-sizing: border-box;
+   outline: none;
+ }*/
+ 
+ /* ==========================================================================================================
+										researchbox1
+   ========================================================================================================== */
 
+
+
+ 
+ .figure1 {
+   position: relative;
+   display: flex;
+   float: left;
+   align-items: flex-start;
+   justify-content: center;
+   width: 25%;
+   height: 4rem;
+   padding: 20px 20px;
+   background-color: #93aef9;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   border-radius: 10px;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 2px 2px rgba(0, 0, 0, 0.22);
+   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+   overflow: hidden;
+ }
+ .figure1:before, .figure1:after {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+ }
+ .figure1:before {
+   content: "";
+   background-color: rgba(0, 0, 0, 0.1);
+   z-index: 0;
+ }
+ .figure1:after {
+   content: "";
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+   overflow: hidden;
+ }
+ .figure1:hover {
+   background-size: 175%;
+   height: 20rem;
+   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+   transition-duration: .6s; 
+ }
+ .figure1:hover:after {
+   content: "A key focus of our research is to develop AI systems that simulate human-like dialogue. We strive to imbue our conversational agents with context-awareness, emotional intelligence, and empathy, making interactions with AI feel more natural and relatable. Our research aims to reduce the limitations of traditional chatbots and virtual assistants, enabling more dynamic and meaningful conversations that foster genuine connections.";
+   text-align: justify;
+   padding: 3%;
+   background-color: white;
+   color: rgb(15, 8, 46);
+   font-size: 90%;
+   z-index: 2;
+ }
+ .figure1:hover .date {
+   bottom: -59px;
+ }
+ .figure1:hover figcaption {
+   transform: translateY(-110%);
+ }
+ .figure1 .date {
+   position: absolute;
+   bottom: 0;
+   right: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding: 10px;
+   background-color: rgba(241, 196, 15, 0.8);
+   text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+ }
+ .figure1 .date span {
+   color: white;
+   line-height: 1;
+ }
+ .figure1 .date span:first-child {
+   font-family: "Source Code Pro", sans-serif;
+   font-size: 20px;
+   font-weight: 900;
+ }
+ .figure1 .date span:last-child {
+   font-size: 14px;
+   font-weight: 400;
+ }
+ .figure1 figcaption {
+   color: white;
+   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+   z-index: 1;
+ }
+ .figure1 figcaption h4 {
+   margin: 0 0 5px;
+   font-size: 20px;
+   line-height: 2.35;
+   text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+ }
+ .figure1 figcaption h4 > span {
+  align-items: center;
+   background-color: rgba(241, 196, 15, 0.8);
+ }
+ .figure1 figcaption p {
+  align-items: center;
+   margin: 0;
+   line-height: 1.5;
+ }
+
+  /* ==========================================================================================================
+										researchbox2
+   ========================================================================================================== */
+
+
+
+ 
+   .figure2 {
+    position: relative;
+    display: flex;
+    float: left;
+    align-items: flex-start;
+    justify-content: center;
+    width: 25%;
+    height: 4rem;
+    padding: 20px 20px;
+    background-color: #93aef9;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 2px 2px rgba(0, 0, 0, 0.22);
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+  }
+  .figure2:before, .figure2:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .figure2:before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 0;
+  }
+  .figure2:after {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+  }
+  .figure2:hover {
+    background-size: 175%;
+    height: 18rem;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition-duration: .6s; 
+  }
+  .figure2:hover:after {
+    content: "Enhancing Human-AI Interactions We focus to develop AI systems that emulate human cognitive functions, including learning, reasoning, and problem-solving. Through advanced machine learning algorithms and natural language processing, our Cognitive Computing solutions enable more intuitive and contextually aware interactions between humans and AI";
+    text-align: justify;
+    padding: 3%;
+    background-color: white;
+    color: rgb(15, 8, 46);
+    font-size: 90%;
+    z-index: 2;
+  }
+  .figure2:hover .date {
+    bottom: -59px;
+  }
+  .figure2:hover figcaption {
+    transform: translateY(-110%);
+  }
+  .figure2 .date {
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgba(241, 196, 15, 0.8);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  .figure2 .date span {
+    color: white;
+    line-height: 1;
+  }
+  .figure2 .date span:first-child {
+    font-family: "Source Code Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+  }
+  .figure2 .date span:last-child {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .figure2 figcaption {
+    color: white;
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    z-index: 1;
+  }
+  .figure2 figcaption h4 {
+    margin: 0 0 5px;
+    font-size: 20px;
+    line-height: 2.35;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+  }
+  .figure2 figcaption h4 > span {
+   align-items: center;
+    background-color: rgba(241, 196, 15, 0.8);
+  }
+  .figure2 figcaption p {
+   align-items: center;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+   /* ==========================================================================================================
+										researchbox3
+   ========================================================================================================== */
+
+
+
+ 
+   .figure3 {
+    position: relative;
+    display: flex;
+    float: left;
+    align-items: flex-start;
+    justify-content: center;
+    width: 25%;
+    height: 4rem;
+    padding: 20px 20px;
+    background-color: #93aef9;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 2px 2px rgba(0, 0, 0, 0.22);
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+  }
+  .figure3:before, .figure3:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .figure3:before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 0;
+  }
+  .figure3:after {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+  }
+  .figure3:hover {
+    background-size: 175%;
+    height: 24rem;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition-duration: .6s; 
+  }
+  .figure3:hover:after {
+    content: "Unleashing Fluid Intelligence in AI We are trailblazing in Liquid Neural Network (LNN) research, an exciting breakthrough in AI technology. LNN is an innovative neural network architecture that offers dynamic adaptability and real-time learning capabilities.LNN harnesses the power of dynamic neural connections, enabling AI systems to adapt and learn rapidly in real time. By mimicking the fluidity of human intelligence, our LNN-based solutions excel in handling complex and dynamic data environments.";
+    text-align: justify;
+    padding: 3%;
+    background-color: white;
+    color: rgb(15, 8, 46);
+    font-size: 90%;
+    z-index: 2;
+  }
+  .figure3:hover .date {
+    bottom: -59px;
+  }
+  .figure3:hover figcaption {
+    transform: translateY(-110%);
+  }
+  .figure3 .date {
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgba(241, 196, 15, 0.8);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  .figure3 .date span {
+    color: white;
+    line-height: 1;
+  }
+  .figure3 .date span:first-child {
+    font-family: "Source Code Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+  }
+  .figure3 .date span:last-child {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .figure3 figcaption {
+    color: white;
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    z-index: 1;
+  }
+  .figure3 figcaption h4 {
+    margin: 0 0 5px;
+    font-size: 20px;
+    line-height: 2.35;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+  }
+  .figure3 figcaption h4 > span {
+   align-items: center;
+    background-color: rgba(241, 196, 15, 0.8);
+  }
+  .figure3 figcaption p {
+   align-items: center;
+    margin: 0;
+    line-height: 1.5;
+  }
 
 
 .box {
